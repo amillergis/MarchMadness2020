@@ -1,0 +1,47 @@
+body{
+  display:flex;
+}
+
+.region {
+  background-color: orange;
+}
+
+.rounds {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inv-rounds {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
+.round {
+  background-color: maroon;
+  display:flex;
+  flex-direction: column;
+}
+
+.games {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+
+}
+
+.game {
+  background-color: green;
+}
+
+.team {
+  background-color: blue;
+}
+
+.regional-champion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}: 
